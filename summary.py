@@ -6,8 +6,11 @@ def main():
 
     cost = []
     write = []
-
+    
+    print("Input file name: ")
     input_file = input()
+
+    print("Output file name: ")
     output_file = input()
 
     with open('cost.csv') as csv_file:
